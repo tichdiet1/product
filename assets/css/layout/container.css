@@ -1,0 +1,17 @@
+/* giới hạn chiều rộng website */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* container lớn hơn */
+.container-lg {
+  max-width: 1400px;
+}
+
+/* container full width */
+.container-fluid {
+  width: 100%;
+  padding: 0 16px;
+}

@@ -1,0 +1,54 @@
+#header {
+    background: linear-gradient(-180deg, #f1c0c7, #0d0475);
+    color: white;
+}
+.header__top-inner {
+    height: 30px;
+}
+.header__top-item {
+    column-gap: 0.3rem;
+}
+.header__top-icon {
+    font-size: 1rem;
+}
+.header__top-text {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.4;
+}
+.header__main-inner {
+    height: 220px;
+}
+.header__main-input {
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: .1s;
+    outline: none;
+}
+.header__main-input:focus {
+    border-radius: 16px;
+    box-shadow: 
+        0 2px 6px rgba(0,0,0,0.15),
+        0 0 0 2px #4f46e5;
+}
+.header__main-separator {
+    width: 1px;
+    background: white;
+}
+.header__main-auth a {
+    color: white;
+    text-decoration: none;
+}
+.header__main-cart {
+    margin-left: 36px;
+}
+.header__main-cart span {
+    padding-left: 8px;
+}
+.header__main-list-menu{
+    padding-bottom: 16px;
+}
+.header__main-list-menu ul {
+    list-style: none;
+    justify-content: space-evenly;
+}

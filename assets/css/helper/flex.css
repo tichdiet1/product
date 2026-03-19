@@ -1,0 +1,10 @@
+/*  
+    1. 3 thằng code trở lên mới dùng tới helper.
+    2. Khi dùng helper thì phải biết nó đang xây bức tường đó
+    có tác dụng gì.
+*/
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
